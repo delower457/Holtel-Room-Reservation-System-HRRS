@@ -22,7 +22,19 @@ The **Hotel Reservation Management System** is a lightweight, terminal-based app
 
 ---
 
-## 3. Features
+
+## 3. Academic Information
+* **Program:** Bachelor of Science in Computer Science and Engineering (CSE)
+* **Course Code:** CSE114
+* **Course Title:** Programming and Problem Solving Lab
+* **Semester:** Summer 2025
+* **Section:** 68_A1
+* **Course Instructor:** Mr. Mehadi Hasan (Lecturer)
+* **University:** Daffodil International University (DIU)
+
+---
+
+## 4. Features
 
 - 🛏️ **Room Initialization** — Auto-creates 10 rooms on first run
 - 📅 **Date-Time Booking** — Book rooms with check-in/check-out date and time (`DD/MM/YYYY HH:MM`)
@@ -35,7 +47,7 @@ The **Hotel Reservation Management System** is a lightweight, terminal-based app
 
 ---
 
-## 4. Technologies Used
+## 5. Technologies Used
 
 | Technology | Detail                  |
 |------------|-------------------------|
@@ -46,7 +58,7 @@ The **Hotel Reservation Management System** is a lightweight, terminal-based app
 
 ---
 
-## 5. Data Structure
+## 6. Data Structure
 
 ```c
 typedef struct {
@@ -62,7 +74,7 @@ typedef struct {
 
 ---
 
-## 6. File Structure
+## 7. File Structure
 
 ```plaintext
 ├── hotel_reservation.c     # Main source file
@@ -72,7 +84,7 @@ typedef struct {
 
 ---
 
-## 7. How to Run
+## 8. How to Run
 
 ### Step 1 — Compile
 
@@ -90,7 +102,7 @@ gcc hotel_reservation.c -o hotel
 
 ---
 
-## 8. Menu Options
+## 9. Menu Options
 
 ```
 --- Hotel Reservation Menu ---
@@ -111,9 +123,9 @@ gcc hotel_reservation.c -o hotel
 
 ---
 
-## 9. Example Workflow
+## 10. Example Workflow
 
-### 9.1 Booking a Room
+### 10.1 Booking a Room
 
 * Select **option 2** from the menu
 * Enter room number (`1–10`)
@@ -123,13 +135,13 @@ gcc hotel_reservation.c -o hotel
 * System validates dates and checks for overlapping bookings
 * Confirmation message displayed on success
 
-### 9.2 Cancelling a Booking
+### 10.2 Cancelling a Booking
 
 * Select **option 3** from the menu
 * Enter the room number to cancel
 * Room status reverts to `Available`
 
-### 9.3 Searching a Guest
+### 10.3 Searching a Guest
 
 * Select **option 4** from the menu
 * Enter guest name **or** room number
@@ -137,14 +149,14 @@ gcc hotel_reservation.c -o hotel
 
 ---
 
-## 10. Contributors
+## 11. Contributors
 
 
 Developed collaboratively by **5th Diension**, ensuring aligned teamwork,
 structured development, and comprehensive testing across all modules.
 
 ---
-## 11. License
+## 12. License
 
 
 Copyright (c) 2026 Md. Delower Sarker
@@ -171,7 +183,7 @@ SOFTWARE.
 ---
 
 
-## 11. Acknowledgements
+## 13. Acknowledgements
 
 Special thanks to **Mehadi Hasan Sir**, Course Instructor,
 for his continuous guidance, structured feedback, and academic
