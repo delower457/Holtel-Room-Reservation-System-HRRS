@@ -1,4 +1,4 @@
-# 🏨 Hotel Reservation Management System
+# 🏨 Hotel Reservation Management System (HRRS)
 ###  Programming and Problem Solving Lab Project – 5th Dimension
 
 ---
